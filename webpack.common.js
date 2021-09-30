@@ -14,7 +14,7 @@ const mainConfig = {
   module: {
     rules: [
       { 
-        test: /\.tsx?$/, 
+        test: /\.ts$/, 
         exclude: /(node_modules|bower_components)/,
         use: 'babel-loader',
       },
@@ -35,7 +35,7 @@ const preloadConfig = {
   module: {
     rules: [
       { 
-        test: /\.tsx?$/, 
+        test: /\.ts$/, 
         exclude: /(node_modules|bower_components)/,
         use: 'babel-loader',
       },
